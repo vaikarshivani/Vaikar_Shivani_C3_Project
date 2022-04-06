@@ -97,6 +97,9 @@ class RestaurantTest {
 
         int actualAmount = restaurant.getMenuTotalAmount(itemsSelected);
         int expectedAmount = 175;
+        System.out.println(expectedAmount);
+        System.out.println(actualAmount);
         assertEquals(expectedAmount, actualAmount);
+
     }
 }
